@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.daily-to-dos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.to-dos {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+}
+
+/* #monday:hover, #tuesday:hover, #wednesday:hover, #thursday:hover, #friday:hover, #saturday:hover, #sunday:hover {
+    background-color: blue!important;
+} */
+
+.invisible {
+    display: none;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: .25rem;
+    padding: .25rem;
+    width: 100%;
+    background-color: red!important;
+}
+
+#controls {
+    padding: 2rem;
+}
+
+.dragover {
+    opacity: .7;
+}
+
+.delete-btn {
+    cursor: pointer;
+}
